@@ -1,0 +1,65 @@
+body{
+    .profile{
+        img{
+        margin:  auto;
+         display: block;
+       margin: 0px auto;
+       padding-top:5px;
+         text-align: center;
+        line-height: 1.6;
+            width: 250px;
+            height: 250px;
+            transform: rotate(360deg);
+            border-radius: 40%;
+        }
+        background-color: #780d54;
+        font-family: Arial, sans-serif;
+        border: 200px;
+        height: 300px;
+      .profile h1 { color: #f3eded;}
+      text-align: center;
+      padding-bottom: 10px ;
+      
+      margin: 0px;
+
+    }
+.about{
+    background-color: #f3eded;
+    font-family: Arial, sans-serif;
+    border: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px 20px 30px 20px;
+    line-height: 1.5;
+    }
+    section.skills {
+        background-color: #f3ecf0;
+        font-family: Arial, sans-serif;
+        border: 50px;
+        h2{text-align: center;}
+        
+margin: 10px;
+        border-radius: 20px;
+    }
+    .contact{
+        background-color: #f3eded;
+        font-family: Arial, sans-serif;
+        border: 50px;
+        text-align: center;
+        border-radius: 20px;
+        margin: 30px 20px 30px 20px;
+        line-height: 1.5;
+
+    }
+    footer{
+        background-color: #780d54;
+        font-family: Arial, sans-serif;
+        border: 50px;
+        text-align: center;
+        border-radius: 20px;
+       padding: 0px;
+        margin: 0px;
+        height: inherit;
+    
+    }
+}
