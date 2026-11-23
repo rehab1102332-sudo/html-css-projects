@@ -1,0 +1,55 @@
+<!DOCTYBE html>
+<html >
+<head>
+    <title>
+        first task
+    </title>
+</head>    
+<body>
+    <form action="/order.html" method="post">
+      <p>  <label for="name">enter name</label>
+        <input type="text" name="Name" id="name" placeholder="your name" >
+</p>
+<p>
+    <label for="email">enter email</label>
+    <input type="email" name="email" id="email" placeholder="your email">
+</p>
+<p>
+  <h1>the size</h1>
+    <input type="radio" name="size" id="small"  checked>
+    <label for="small">small</label>
+        </p>
+<p>
+    <input type="radio" name="size" id="large" >
+    <label for="large">large</label>
+</p>
+<p>the extra order</p>
+<input type="checkbox"  id="salad">
+<label for="salad">salad</label><br>
+<input type="checkbox"  id="soub">
+<label for="soub">soub</label><br>
+<input type="checkbox" id="bread">
+<label for="bread">bread</label><br>
+
+<label for="pick up time"> pick up time</label>
+<select id="pick up time" name="time">
+    <br>
+<option value="10 AM">10:00 AM
+</option>
+<option value="11 AM" >11:00 AM
+</option>
+<option value="1 PM">1:00 PM
+</option>
+<option value="3 PM">3:00 PM
+</option>
+</select>
+<p>
+<label for="special">Special Request </label>
+<textarea id="special" name="special" rows="4"  placeholder="enter your special request">Special Request:</textarea>
+</p>
+<br>
+<input type="submit" id="enter">
+    </form>
+    
+</body>
+</html>
